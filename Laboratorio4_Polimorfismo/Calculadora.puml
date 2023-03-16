@@ -1,0 +1,12 @@
+@startuml
+annotation java.lang.Override
+class laboratorio4_polimorfismo.CalculadoraEspecial
+class laboratorio4_polimorfismo.CalculadoraNormal
+class laboratorio4_polimorfismo.ClienteCalculadoraEspecial
+class laboratorio4_polimorfismo.ClienteCalculadoraNormal
+interface laboratorio4_polimorfismo.ICalculadora
+laboratorio4_polimorfismo.CalculadoraEspecial ..> java.lang.Override
+laboratorio4_polimorfismo.CalculadoraEspecial --|> laboratorio4_polimorfismo.ICalculadora
+laboratorio4_polimorfismo.CalculadoraNormal ..> java.lang.Override
+laboratorio4_polimorfismo.CalculadoraNormal --|> laboratorio4_polimorfismo.ICalculadora
+@enduml
